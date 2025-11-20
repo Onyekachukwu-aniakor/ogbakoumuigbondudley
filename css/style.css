@@ -8,6 +8,8 @@
 
 .main-h1{
     text-align: center;
+    max-width: 100%;
+    height: auto;
     margin-top: 2rem;
     border: 2px solid ;
     font-size: 90px;
@@ -35,3 +37,57 @@ footer{
     margin-top: 1.5rem;
 }
 
+@media (max-width:850px) {
+    .main-h1{
+        text-align: center;
+    max-width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    border: 2px solid ;
+    font-size: 55px;
+    font-style: italic;
+    font-weight: bolder;
+    background-color: #fff;
+    color: #000;
+    background-image:linear-gradient(30deg, #800 12%, transparent 12.5%, transparent 87%, #800 87.5%, #800),
+linear-gradient(150deg, #800 12%, transparent 12.5%, transparent 87%, #800 87.5%, #800),
+linear-gradient(30deg, #800 12%, transparent 12.5%, transparent 87%, #800 87.5%, #800),
+linear-gradient(150deg, #800 12%, transparent 12.5%, transparent 87%, #800 87.5%, #800),
+linear-gradient(60deg, #ffffcc 25%, transparent 25.5%, transparent 75%, #ffffcc 75%, #ffffcc), 
+linear-gradient(60deg, #ffffcc 25%, transparent 25.5%, transparent 75%, #ffffcc 75%, #ffffcc) ;
+    background-size: 80px 140px;
+    background-position:0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px ;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    }
+}
+
+@media (max-width:500px) {
+    .main-h1{
+        text-align: center;
+    max-width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    border: 2px solid ;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bolder;
+    background-color: #fff;
+    color: #000;
+    background-image:linear-gradient(30deg, #800 12%, transparent 12.5%, transparent 87%, #800 87.5%, #800),
+linear-gradient(150deg, #800 12%, transparent 12.5%, transparent 87%, #800 87.5%, #800),
+linear-gradient(30deg, #800 12%, transparent 12.5%, transparent 87%, #800 87.5%, #800),
+linear-gradient(150deg, #800 12%, transparent 12.5%, transparent 87%, #800 87.5%, #800),
+linear-gradient(60deg, #ffffcc 25%, transparent 25.5%, transparent 75%, #ffffcc 75%, #ffffcc), 
+linear-gradient(60deg, #ffffcc 25%, transparent 25.5%, transparent 75%, #ffffcc 75%, #ffffcc) ;
+    background-size: 80px 140px;
+    background-position:0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px ;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+    }
+}
